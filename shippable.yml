@@ -26,3 +26,5 @@ integrations:
   hub:
     - integrationName: dr-ecr
       type: ecr
+      region: us-west-2
+      
