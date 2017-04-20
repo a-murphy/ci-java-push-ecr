@@ -3,8 +3,8 @@
 ![AyeAye](https://github.com/shippableSamples/node-build-push-docker-hub/blob/master/public/resources/images/captain.png)
 
 # Sample Java/Tomcat app running in Docker container on Elastic Beanstalk
-[![Run Status](https://api.shippable.com/projects/5885ecca11c45a1000af5760/badge?branch=master)](https://app.shippable.com/projects/5885ecca11c45a1000af5760)
-[![Coverage Badge](https://api.shippable.com/projects/5885ecca11c45a1000af5760/coverageBadge?branch=master)](https://app.shippable.com/projects/5885ecca11c45a1000af5760)
+[![Run Status](https://api.shippable.com/projects/58f826488c0a6707003a5e05/badge?branch=master)](https://app.shippable.com/projects/58f826488c0a6707003a5e05)
+[![Coverage Badge](https://api.shippable.com/projects/58f826488c0a6707003a5e05/coverageBadge?branch=master)](https://app.shippable.com/projects/58f826488c0a6707003a5e05)
 
 
 A simple Java Hello World application with unit tests and coverage reports.
@@ -25,6 +25,6 @@ on Shippable for authenticating CI to AWS
 (see comments in file)
 
 ### CI console screenshot
-![CI Console Log](https://github.com/shippableSamples/java-ecr-runcli-elasticbeanstalk/blob/master/resources/images/java-ecr-runcli-elasticbeanstalk-CI.png)
+![CI Console Log](https://github.com/devops-recipes/ci-java-ecr/blob/master/console-screenshot.png)
 
 
