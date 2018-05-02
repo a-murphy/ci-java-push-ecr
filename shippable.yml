@@ -24,8 +24,18 @@ build:
     - echo versionName=$BRANCH.$BUILD_NUMBER > /build/state/devopsrecipe_java_ecr_img.env
 
 integrations:
-  hub:
-    - integrationName: dr-ecr
-      type: ecr
-      region: us-west-2
-
+#  hub:
+#    - integrationName: dr-ecr
+#      type: ecr
+#      region: us-west-2
+  notifications:
+    - integrationName: email
+      type: email
+      on_success: always
+      on_failure: always
+      on_pull_request: never
+      recipients:
+        - --last_committer
+      sendConsoleLogs: true
+      sendCoverageReports: true
+      sendFailingSnippet: true

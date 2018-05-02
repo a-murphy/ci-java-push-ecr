@@ -70,7 +70,7 @@ public class ControllerTest {
         .accept(MediaType.TEXT_HTML)
       ) .andExpect(status().isOk())
         .andExpect(view().name("helloworld"))
-        .andExpect(model().attribute("name", "Tee"));
+        .andExpect(model().attribute("name", "T"));
   }
   @Test
   public void testNullNameInput() throws Exception {
